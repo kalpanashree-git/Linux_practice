@@ -1,0 +1,5 @@
+So today our task is to,
+         - Create a new user in the server and add them in Home.
+         - After Creation, When the user tries to login, They Must to Change their password.
+         - And assigning root access to this user manually.
+
