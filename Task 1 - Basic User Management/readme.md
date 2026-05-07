@@ -1,5 +1,6 @@
 
 So today our task is to,
+
          - Create a new user in the server and add them in Home.
          - After Creation, When the user tries to login, They Must to Change their password.
          - And assigning root access to this user manually.
@@ -22,7 +23,7 @@ So today our task is to,
           Developer - The Username) this means, the password is going to get deleted in zero days, so it asks us to change the password immediately right after the login!
 
 3. Giving sudo access to a user.
-   [CAUTION: Should be given only to authorised persons.]
+   [CAUTION: Should be given only to authorised persons.And can be done only by the Root user]
        There are multiple ways to give sudo access to a user. (sudo access means, giving root level access like they can install new things to the server and they can delete or view root level files)
      - We can add the user into a group, and then give access to them. (Useful when we have to give the same access to multiple users)
      - We can manually write a single line script for a specific user. by using the command below.
